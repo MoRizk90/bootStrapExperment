@@ -1,0 +1,80 @@
+body{
+  
+    padding-top: 50px;
+}
+
+navbar-inverse .navbar-nav>.active>a,
+ .navbar-inverse .navbar-nav>.active>a:focus,
+  .navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: #f45642;
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav>li>a {
+    color: #BBB;
+}
+
+.navbar-inverse .navbar-brand span{
+    color: #f45642;
+
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-right .dropdown-menu {
+    right: auto;
+    left: 0;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    font-size: 16px;
+}
+
+.dropdown-menu{
+    background-color: #333;
+    min-width: 250px;
+
+}
+
+
+.dropdown-menu > li > a{
+    color: #FFF;
+    -webkit-transition: padding 0.5s ease;
+    -moz-transition: padding 0.5s ease;
+    -o-transition: padding 0.5s ease;
+    transition: padding 0.5s ease;
+}
+
+.dropdown-menu>li>a:focus,
+ .dropdown-menu>li>a:hover {
+    color: #FFF;
+    text-decoration: none;
+    background-color: #f45642;
+    padding-left: 35px;
+}
+
+
+.dropdown-menu .divider {
+    background-color: #f45642;
+}
+
+/*Carousal styling*/
+.carousel-caption {
+bottom: 72px;
+color:rgb(22, 22, 22);
+background: rgba(3,3,3,0.3);
+padding-right: 20px;
+padding-left: 20px;
+
+}
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    border-color: #f45642;
+    margin: 0;
+    background-color: #f45642;
+}
+
+h1{color:rgb(63, 131, 74)}
