@@ -1,6 +1,5 @@
 $(document).ready(function(){
-    alert('hello');
     $('.carousel').carousel({
-        interval: 500
+        interval: 10000
       })
 });

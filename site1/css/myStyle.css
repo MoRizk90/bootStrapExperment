@@ -1,6 +1,6 @@
 body{
-  
-    padding-top: 50px;
+      padding-top: 50px;
+      height: 3000px;
 }
 
 navbar-inverse .navbar-nav>.active>a,
@@ -78,3 +78,14 @@ padding-left: 20px;
 }
 
 h1{color:rgb(63, 131, 74)}
+
+/*the start of the about section*/
+.about{ padding: 60px 0;}
+.about .lead{color:#888; font-size: 25px; margin-top: 15px;}
+.about h1 span{color:#f45642;}
+
+
+
+
+
+/*the end of the about section*/
