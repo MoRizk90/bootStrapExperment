@@ -83,9 +83,46 @@ h1{color:rgb(63, 131, 74)}
 .about{ padding: 60px 0;}
 .about .lead{color:#888; font-size: 25px; margin-top: 15px;}
 .about h1 span{color:#f45642;}
-
+.about h1{font-weight: bold; text-transform: uppercase;}
 
 
 
 
 /*the end of the about section*/
+
+/*the start of the features section*/
+.features{
+    background: #EEE;
+    padding: 25px 0;
+    text-transform: capitalize;
+
+}
+.features h1{margin-bottom: 30px;}
+
+.features .feat{margin-bottom: 24px;}
+
+.features .feat p{line-height: 1.5em;}
+
+.features .feat span.glyphicon{
+    font-size: 22px;
+    margin: 10px 0;
+    color: #f45642;
+
+}
+
+/*the end of the features section*/
+
+/*the start of the testominal section*/
+.testominal{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.testominal h1{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.testominal .lead{
+    line-height: 2em;
+}
+/*the End of the testominal section*/
